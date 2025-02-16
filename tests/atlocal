@@ -1,0 +1,14 @@
+# tests/atlocal.  Generated from atlocal.in by configure.                                     -*- shell-script -*-
+# Configurable variable values for GNU test test suite.
+
+PATH=/home/arnab/VAFuzz-targets/cflow-1.7-full/tests:/home/arnab/VAFuzz-targets/cflow-1.7-full/src:$top_srcdir:$srcdir:$PATH
+CFLOWDIR=/home/arnab/VAFuzz-targets/cflow-1.7-full/tests
+#EXAMPLES=/home/arnab/VAFuzz-targets/cflow-1.7-full/examples
+CFLOW_OPTIONS=
+export CFLOW_OPTIONS
+CFLOWRC=/dev/null
+export CFLOWRC
+# On some systems unsetting undefined variable produces an error, so
+# make sure it is defined.
+POSIXLY_CORRECT=0
+unset POSIXLY_CORRECT
